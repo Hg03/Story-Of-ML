@@ -36,7 +36,7 @@ $$ Wx + b <=1 $$
 
 Now, the point is that, data in real world is not that much easy to be separated linearly like line, point or plane. Hyperplane can also be non-linear.
 
-<img src="https://github.com/Hg03/Story-Of-ML/blob/main/assets/noninear.png">
+<img src="https://github.com/Hg03/Story-Of-ML/blob/main/assets/nonlinear.png">
 
 
 
