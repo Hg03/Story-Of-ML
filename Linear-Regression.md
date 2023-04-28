@@ -74,6 +74,5 @@ If we've taken data having more independent variables (more than 1), we can fit 
 
 |Multidimensional Data|Fitting plane into it|
 |---------------------|---------------------|
-|<img src = "https://github.com/Hg03/Story-Of-ML/blob/assets/plane1.png">
-">|<img src = "https://github.com/Hg03/Story-Of-ML/blob/assets/plane2.png">|
+|<img src = "https://github.com/Hg03/Story-Of-ML/blob/main/assets/plane1.png">|<img src = "https://github.com/Hg03/Story-Of-ML/blob/main/assets/plane2.png">|
 
