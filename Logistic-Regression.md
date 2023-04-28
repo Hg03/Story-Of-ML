@@ -30,6 +30,14 @@ Here we can see, as the distance increases from goal post, probability of succes
 
 As I've told, it's kinda improved version of linear regression, so first fit a best fit line on the datapoints :
 
+<img src = "https://github.com/Hg03/Story-Of-ML/blob/main/assets/fittingline.png">
+
+This is the best possible fit line we can draw, but we can also see it can't able to coincide with all data points. Linear regression model for the classification problem is also sensitive to outliers, it value of **Distance from goal post** is higher, we can also get the negative target value but we need a value ranges from 0 to 1. Therefore sigmoid function here comes into action.
+
+|Goal|No Goal|
+|----|-------|
+|<img src = "https://github.com/Hg03/Story-Of-ML/blob/main/assets/goal.png">|<img src = "https://github.com/Hg03/Story-Of-ML/blob/main/assets/nogoal.png">|
+
 
 
 
