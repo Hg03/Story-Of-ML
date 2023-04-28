@@ -52,6 +52,16 @@ here, first we'll calculate the value of y using equation of linear equation and
 
 <img src = "https://github.com/Hg03/Story-Of-ML/blob/main/assets/sigmoid.png">
 
+Here we can see, applying sigmoid function results in coinciding with many datapoints and becomes very confident to predict the future datapoints. In below diagram, we can see as distance is lesser than 20 - 25, goal succeeds ✅ and if distance is greater than 30, goal failed ❎.
+
+<img src = "https://github.com/Hg03/Story-Of-ML/blob/main/assets/goalnogoal.png">
+
+but but , distance ranges from 25 to 30, we got a line means it can't accurately predicts it is goal or not. Therefore here comes the training part, more data we train our model on , less spread this line would be.
+
+|If model is more confident, decision boundary is narrow|If model is less confident, decision boundary is wide|
+|-------------------------------------------------------|-----------------------------------------------------|
+|<img src = "https://github.com/Hg03/Story-Of-ML/blob/main/assets/narrow.png">|<img src = "https://github.com/Hg03/Story-Of-ML/blob/main/assets/wide.png">|
+
 
 
 
