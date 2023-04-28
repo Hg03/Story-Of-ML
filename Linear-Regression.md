@@ -39,5 +39,5 @@ We can't go and draw every possible lines possible because that would be tedious
 As we know, equation of line is defined as 
 
 ```math 
-e^{i\pi} + 1 = 0
+y = mx + c
 ```
