@@ -24,5 +24,5 @@ and so on..
 
 We can plot the data as below..
 
-<img src="https://github.com/Hg03/Story-Of-ML/blob/main/assets/plot_lr.png" width="600" height="600">
+<img src="https://github.com/Hg03/Story-Of-ML/blob/main/assets/plot_lr.png">
 
