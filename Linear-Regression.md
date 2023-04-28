@@ -39,10 +39,18 @@ We can't go and draw every possible lines possible because that would be tedious
 As we know, equation of line is defined as 
 
 ```math 
-y = mx + c, where m and c are 
+y = mx + c
 ```
+where m & c are,
 
 |Intercept (c)|Slope (m)|
 |-------------|---------|
 |Intercept is defined as a distance of origin from y-axis at where line is intersecting the y-axis|Slope is defined as angle/inclination of line towards x-axis|
 |<img src="https://github.com/Hg03/Story-Of-ML/blob/main/assets/intercept.png">|<img src = "https://github.com/Hg03/Story-Of-ML/blob/main/assets/slope.png">|
+
+So we have to tweak the value of intercept and slope to plot different lines on the datapoints. But how we'll identify that we've reached the best fit line. Now here comes Ordinary Least Square method. The OLS method aims to minimize the sum of square differences between the observed and predicted values. 
+Inshort, we have to minimize the distance between actual datapoints and points which are predicted by lines. As in below diagram, see those **white dotted lines**, those are the distance I'm talking about, To be precise, those distances are called error and we have to minimize the error as much as possible to get the best fit line.
+
+```math
+\sum_{i=1}^{D}(x_i-y_i)^2
+```
