@@ -64,9 +64,11 @@ After getting the cost function, we'll differentiate cost function with respect 
 
 View the plot that how plot of cost function and intercept-slope looks like
 
-<img src="">
+<img src="https://github.com/Hg03/Story-Of-ML/blob/main/assets/gradient-descent.png">
 
 Here, 𝛿 is a learning rate, it defines the variability of updation of intercept and slope. For e.g. If learning rate is higher, value of cost function will change with very high margin and if learning rate is lower, value of cost function will change with less margin with slow speed. So selection of learning rate is very essential.
+
+<img src = "https://github.com/Hg03/Story-Of-ML/blob/main/assets/highlowrate.png">
 
 
 
