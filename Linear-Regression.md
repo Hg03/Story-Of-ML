@@ -72,6 +72,8 @@ Here, 𝛿 is a learning rate, it defines the variability of updation of interce
 
 If we've taken data having more independent variables (more than 1), we can fit plane as well as other high dimensional vectors like below :
 
-<img src = "https://github.com/Hg03/Story-Of-ML/blob/assets/plane.png">
-">
+|Multidimensional Data|Fitting plane into it|
+|---------------------|---------------------|
+|<img src = "https://github.com/Hg03/Story-Of-ML/blob/assets/plane1.png">
+">|<img src = "https://github.com/Hg03/Story-Of-ML/blob/assets/plane2.png">|
 
