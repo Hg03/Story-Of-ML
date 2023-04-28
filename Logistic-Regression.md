@@ -26,5 +26,10 @@ and so on ⚽⚽⚽
 
 Here we can see, as the distance increases from goal post, probability of successfull goal decreases (0) and vice versa. If we plot the datapoints on a graph, it looks like as below :
 
+<img src="https://github.com/Hg03/Story-Of-ML/blob/main/assets/Screenshot%20from%202023-04-28%2019-09-49.png">
+
+As I've told, it's kinda improved version of linear regression, so first fit a best fit line on the datapoints :
+
+
 
 
