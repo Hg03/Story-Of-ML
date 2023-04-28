@@ -34,6 +34,8 @@ As I've told, it's kinda improved version of linear regression, so first fit a b
 
 This is the best possible fit line we can draw, but we can also see it can't able to coincide with all data points. Linear regression model for the classification problem is also sensitive to outliers, it value of **Distance from goal post** is higher, we can also get the negative target value but we need a value ranges from 0 to 1. Therefore sigmoid function here comes into action.
 
+<img src = "https://github.com/Hg03/Story-Of-ML/blob/main/assets/negativevalue.png">
+
 **Linear Regression outputs non probabilities whereas we are interested in probability(ranges from 0 to 1), that is why sigmoid function comes into action**
 
 |Goal|No Goal|
@@ -46,7 +48,11 @@ Sigmoid function helps the linear function to trim the continuous value to lies 
 
 $$ h_ \theta (x) =  \frac{\mathrm{1} }{\mathrm{1} + e^-(mx+c) }  $$
 
-here, first we'll calculate the value of y using equation of linear equation and then put the value in sigmoid function.
+here, first we'll calculate the value of y using equation of linear equation and then put the value in sigmoid function. Let's see how it looks by trimming the continous value in a probability model :
+
+<img src = "https://github.com/Hg03/Story-Of-ML/blob/main/assets/sigmoid.png">
+
+
 
 
 
