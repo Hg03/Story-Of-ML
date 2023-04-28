@@ -26,8 +26,16 @@ We can plot the data as below..
 
 <img src="https://github.com/Hg03/Story-Of-ML/blob/main/assets/plot_lr.png">
 
-Therefore, On these points we have to plot different lines so that It coincides (intersect) most of the data and that line would be our best fit line.
+Therefore, On these data points we can plot different lines and react to that one line so that It coincides (intersect) most of the data and that line would be our best fit line.
 
 |1.|2.|3.|
 |--|--|--|
 |<img src = "https://github.com/Hg03/Story-Of-ML/blob/main/assets/oneline.png">|<img src = "https://github.com/Hg03/Story-Of-ML/blob/main/assets/twolines.png">|<img src = "https://github.com/Hg03/Story-Of-ML/blob/main/assets/morelines.png">|
+
+But But ??
+
+We can't go and draw every possible lines possible because that would be tedious task therefore we'll try to tweak two parameters of line to reach to best fit i.e. **intercept (c)** and **slope (m)**.
+
+As we know, equation of line is defined as 
+
+```math e^{i\pi} + 1 = 0 ```
