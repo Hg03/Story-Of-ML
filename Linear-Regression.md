@@ -26,3 +26,7 @@ We can plot the data as below..
 
 <img src="https://github.com/Hg03/Story-Of-ML/blob/main/assets/plot_lr.png">
 
+Therefore, On these points we have to plot different lines so that It coincides (intersect) most of the data and that line would be our best fit line.
+
+|1.|2.|3.|
+|<img src = "">|<img src = "">|<img src = "">|
