@@ -49,8 +49,13 @@ where m & c are,
 |<img src="https://github.com/Hg03/Story-Of-ML/blob/main/assets/intercept.png">|<img src = "https://github.com/Hg03/Story-Of-ML/blob/main/assets/slope.png">|
 
 So we have to tweak the value of intercept and slope to plot different lines on the datapoints. But how we'll identify that we've reached the best fit line. Now here comes Ordinary Least Square method. The OLS method aims to minimize the sum of square differences between the observed and predicted values. 
-Inshort, we have to minimize the distance between actual datapoints and points which are predicted by lines. As in below diagram, see those **white dotted lines**, those are the distance I'm talking about, To be precise, those distances are called error and we have to minimize the error as much as possible to get the best fit line.
 
-```math
-\sum_{i=1}^{D}(x_i-y_i)^2
-```
+Inshort, we have to minimize the distance between actual datapoints and points which are predicted by lines. As in below diagram, see those **white dotted lines**, those are the distance I'm talking about, To be precise, those distances are called error and we have to minimize the error as much as possible to get the best fit line. 
+
+First we start with our base line having **m = 0** and **c = 1**, Now we'll calculate the mean of square differences between observed and predicted values. We can call it a cost function.
+
+$$ \sum_{i=1}^{D}(x_i-y_i)^2 / D $$
+
+After getting the cost function, we'll differentiate cost function with respect to **m** as well as with **c** and obtain the next intercept and slope value so that we can plot next line. Doing this process iteratively results in reaching to our best fit line.
+
+
