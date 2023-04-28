@@ -39,10 +39,10 @@ We can't go and draw every possible lines possible because that would be tedious
 As we know, equation of line is defined as 
 
 ```math 
-y = mx + c, where m & c are 
+y = mx + c, where m and c are 
 ```
 
 |Intercept (c)|Slope (m)|
 |-------------|---------|
 |Intercept is defined as a distance of origin from y-axis at where line is intersecting the y-axis|Slope is defined as angle/inclination of line towards x-axis|
-|<img src="">|<img src = "">|
+|<img src="https://github.com/Hg03/Story-Of-ML/blob/main/assets/intercept.png">|<img src = "https://github.com/Hg03/Story-Of-ML/blob/main/assets/slope.png">|
