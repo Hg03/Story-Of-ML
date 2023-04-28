@@ -14,9 +14,29 @@ There are many ways we can create hyperplane to separate classes by varying angl
 
 1. Try to fit a hyperplane (for now, fit line) that separates two classes (or more).
 2. Now create two hyperplanes attached to **support vectors** of each class.
-3. Now try to maximize marginal distance between two support vector attached hyperplanes so that it clearly separates.
+3. Now try to maximize marginal (as you can see the **margin** gap) distance between two support vector attached hyperplanes so that it clearly separates.
 
+**Support Vectors** are those extreme points of each class where the two hyperplanes other than middle hyperplane
 
+<img src="https://github.com/Hg03/Story-Of-ML/blob/main/assets/hyperplanes.png">
+
+Equation of hyperplane (ho) is defined as :
+
+$$ Wx + b = 0 $$
+
+and equation of other two hyperplanes (h1 & h2) are :
+
+1. h1 - for positive class
+
+$$ Wx + b >= 1 $$
+
+2. h2 - for negative class
+
+$$ Wx + b <=1 $$
+
+Now, the point is that, data in real world is not that much easy to be separated linearly like line, point or plane. Hyperplane can also be non-linear.
+
+<img src="https://github.com/Hg03/Story-Of-ML/blob/main/assets/noninear.png">
 
 
 
