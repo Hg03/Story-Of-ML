@@ -78,6 +78,8 @@ $$ Simplified Margin Width = 1/2 * |W.W| $$
 
 But, This value of margin width is arbitrarily too large, instead we want near to 1. Therefore we'll optimize the value of margin width using **lagrange multiplier**. To look into more detail, view this amazing [video](https://youtu.be/ny1iZ5A8ilA).
 
+**Overall, if new sample's value lies greater than or equal to 0, it resides in positive class else negative**. In case of multiple features, decision boundary will become more complicated.
+
 
 
 
