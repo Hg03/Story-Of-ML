@@ -76,6 +76,9 @@ $$ Simplified Margin Width = 1/2 * |W.W| $$
 
 <img src="https://github.com/Hg03/Story-Of-ML/blob/main/assets/marginwidth.png">
 
+But, This value of margin width is arbitrarily too large, instead we want near to 1. Therefore we'll optimize the value of margin width using **lagrange multiplier**. To look into more detail, view this amazing [video](https://youtu.be/ny1iZ5A8ilA).
+
+
 
 
 
