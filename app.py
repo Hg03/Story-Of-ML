@@ -7,7 +7,7 @@ def read_markdown_file(markdown_file):
 st.set_page_config(page_icon = '🔑',initial_sidebar_state='expanded',menu_items={'Get Help':'https://www.linkedin.com/in/harish-gehlot-5338a021a/','Report a bug':'https://github.com/Hg03/Story-Of-ML','About':'Intuition on Algorithms 🖋️'}) 
 st.title('Story On ML')
 st.sidebar.title('Articles')
-articles_path = {'Linear Regression':'Linear-Regression.md','Logistic Regression':'Logistic-Regression.md','Support Vector Machine':'Support-Vector-Machine.md'}
+articles_path = {'Linear Regression':'About':'README.md','Linear-Regression.md','Logistic Regression':'Logistic-Regression.md','Support Vector Machine':'Support-Vector-Machine.md'}
 articles = st.sidebar.selectbox('Articles',['About','Linear Regression','Logistic Regression','Support Vector Machine'])
 
 reader = read_markdown_file(article_path[articles])
