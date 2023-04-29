@@ -6,9 +6,9 @@
 
 Imagine you have a data with 2 classes i.e. blue 🔵 and red 🔴, we will separate these classes using hyperplane. Hyperplane can be one-dimensional (separated by point), two-dimensional plane (separated by line), three-dimensional (separated by plane or circle) or more higher dimensional hyperplane.
 
-|Linearly Separable|Plane Separable|
-|------------------|---------------|
-|<img src="https://github.com/Hg03/Story-Of-ML/blob/main/assets/lineseparable.png">|<img src="https://github.com/Hg03/Story-Of-ML/blob/main/assets/planeseparable.png">|
+|Point Separable|Linearly Separable|Plane Separable|
+|---------------|------------------|---------------|
+|<img src="https://github.com/Hg03/Story-Of-ML/blob/main/assets/pointseparable.png">|<img src="https://github.com/Hg03/Story-Of-ML/blob/main/assets/lineseparable.png">|<img src="https://github.com/Hg03/Story-Of-ML/blob/main/assets/planeseparable.png">|
 
 There are many ways we can create hyperplane to separate classes by varying angle (or we can say **slope**) :- 
 
