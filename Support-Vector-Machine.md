@@ -4,7 +4,7 @@
 
 ### How it is implemented 🤔 💭
 
-Imagine you have a data with 2 classes i.e. blue 🔵 and red 🔴, we will separate these classes using hyperplane. Hyperplane can be one-dimensional (separated by point), two-dimensional plane (separated by line), three-dimensional (separated by plane or circle) or more higher dimensional hyperplane.
+Imagine you have a data with 2 classes i.e. yellow 🟡 and red 🔴, we will separate these classes using hyperplane. Hyperplane can be one-dimensional (separated by point), two-dimensional plane (separated by line), three-dimensional (separated by plane or circle) or more higher dimensional hyperplane.
 
 |Point Separable|Linearly Separable|Plane Separable|
 |---------------|------------------|---------------|
@@ -22,9 +22,12 @@ There are many ways we can create hyperplane to separate classes by varying angl
 2. Now create two hyperplanes attached to **support vectors** of each class.
 3. Now try to maximize marginal (as you can see the **margin** gap) distance between two support vector attached hyperplanes so that it clearly separates.
 
-**Support Vectors** are those extreme points of each class where the two hyperplanes other than middle hyperplane
-
 <img src="https://github.com/Hg03/Story-Of-ML/blob/main/assets/hyperplanes.png">
+
+
+**Support Vectors** are those closest points touching or near to two hyperplanes other than middle one.
+
+<img src="https://github.com/Hg03/Story-Of-ML/blob/main/assets/sv.png">
 
 Equation of hyperplane (ho) is defined as :
 
@@ -40,7 +43,39 @@ $$ Wx + b >= 1 $$
 
 $$ Wx + b <=1 $$
 
-Now, the point is that, data in real world is not that much easy to be separated linearly like line, point or plane. Hyperplane can also be non-linear.
+### How we can calculate the max margin mathematically (Maths 🎃)
+
+1. Create a vector (**w**) perpendicular to hyperplane (**ho**), as we can analyze that any new vector perpendicular to **ho** has a same projection on **w**.
+2. Equation of **ho** is represented as 
+
+$$ Wx + b = 0 $$
+
+<img src = "https://github.com/Hg03/Story-Of-ML/blob/main/assets/hoequation.png">
+
+If any new sample results to value more than 0, it lies in positive (or certain other) class, else if any new sample results to value less than 0, it lies in negative class.
+
+<img src="https://github.com/Hg03/Story-Of-ML/blob/main/assets/twovectors.png">
+
+3. Now create two vectors more perpendicular to h1 and h2 and get the equation for these vectors which are :
+
+$$ Wx + b = k $$
+
+$$ Wx + b = -k $$
+
+Here k is a constant so we can replace it with 1 for more convenience, therefore
+
+$$ Wx + b = 1 $$
+
+$$ Wx + b = -1 $$
+
+<img src="https://github.com/Hg03/Story-Of-ML/blob/main/assets/h12equation.png">
+
+
+
+
+
+
+
 
 
 
