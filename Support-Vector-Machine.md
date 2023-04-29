@@ -10,6 +10,12 @@ Imagine you have a data with 2 classes i.e. blue 🔵 and red 🔴, we will sepa
 |---------------|------------------|---------------|
 |<img src="https://github.com/Hg03/Story-Of-ML/blob/main/assets/pointseparable.png">|<img src="https://github.com/Hg03/Story-Of-ML/blob/main/assets/lineseparable.png">|<img src="https://github.com/Hg03/Story-Of-ML/blob/main/assets/planeseparable.png">|
 
+In above diagrams, data is only linearly separated, but it's not only the case. Real world data is so much messy so that It can be separated by a non linear hyperplane.
+
+|1.|2.|
+|--|--|
+|<img src="https://github.com/Hg03/Story-Of-ML/blob/main/assets/nonlinear.png">||
+
 There are many ways we can create hyperplane to separate classes by varying angle (or we can say **slope**) :- 
 
 1. Try to fit a hyperplane (for now, fit line) that separates two classes (or more).
@@ -36,7 +42,7 @@ $$ Wx + b <=1 $$
 
 Now, the point is that, data in real world is not that much easy to be separated linearly like line, point or plane. Hyperplane can also be non-linear.
 
-<img src="https://github.com/Hg03/Story-Of-ML/blob/main/assets/nonlinear.png">
+
 
 
 
