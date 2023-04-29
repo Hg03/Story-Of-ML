@@ -10,5 +10,5 @@ st.sidebar.title('Articles')
 articles_path = {'About':'README.md','Linear Regression':'Linear-Regression.md','Logistic Regression':'Logistic-Regression.md','Support Vector Machine':'Support-Vector-Machine.md'}
 articles = st.sidebar.selectbox('Articles',['About','Linear Regression','Logistic Regression','Support Vector Machine'])
 
-reader = read_markdown_file(article_path[articles])
+reader = read_markdown_file(articles_path[articles])
 st.markdown(reader,unsafe_allow_html=True)
