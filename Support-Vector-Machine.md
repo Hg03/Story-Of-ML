@@ -54,7 +54,7 @@ $$ Wx + b = 0 $$
 
 If any new sample results to value more than 0, it lies in positive (or certain other) class, else if any new sample results to value less than 0, it lies in negative class.
 
-<img src="https://github.com/Hg03/Story-Of-ML/blob/main/assets/twovectors.png">
+<img src="https://github.com/Hg03/Story-Of-ML/blob/main/assets/two_vectors.png">
 
 3. Now create two vectors more perpendicular to h1 and h2 and get the equation for these vectors which are :
 
@@ -69,6 +69,12 @@ $$ Wx + b = 1 $$
 $$ Wx + b = -1 $$
 
 <img src="https://github.com/Hg03/Story-Of-ML/blob/main/assets/h12equation.png">
+
+4. We've calculated the equations of hyperplanes, let's evaluate the width of margin. For that , introduce two vectors, one on support vector of h1 and another on support vector of h2. Now take difference of both vectors and do the dot product of it with the vector perpendicular to **ho**, Hence width results to 
+
+$$ Simplified Margin Width = 1/2 * |W.W| $$
+
+<img src="https://github.com/Hg03/Story-Of-ML/blob/main/assets/marginwidth.png">
 
 
 
