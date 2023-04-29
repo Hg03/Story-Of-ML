@@ -24,7 +24,7 @@ and so on..
 
 We can plot the data as below..
 
-![](https://github.com/Hg03/Story-Of-ML/blob/main/assets/plot_lr.png)
+<img src="https://github.com/Hg03/Story-Of-ML/blob/main/assets/plot_lr.png">
 
 Therefore, On these data points we can plot different lines and react to that one line so that It coincides (intersect) most of the data and that line would be our best fit line.
 
