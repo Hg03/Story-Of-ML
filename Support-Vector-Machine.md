@@ -14,7 +14,7 @@ In above diagrams, data is only linearly separated, but it's not only the case. 
 
 |1.|2.|
 |--|--|
-|<img src="https://github.com/Hg03/Story-Of-ML/blob/main/assets/nonlinear.png">||
+|<img src="https://github.com/Hg03/Story-Of-ML/blob/main/assets/nonlinear.png">|<img src="https://github.com/Hg03/Story-Of-ML/blob/main/assets/circleseparated.png">|
 
 There are many ways we can create hyperplane to separate classes by varying angle (or we can say **slope**) :- 
 
