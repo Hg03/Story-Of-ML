@@ -12,3 +12,22 @@
 5. **Pruning** - When we remove sub-nodes , this process is known as pruning of decision tree.
 
 <img src="https://github.com/Hg03/Story-Of-ML/blob/main/assets/terminologies.png">
+
+Imagine we have a data
+
+|Size|Color|Class|
+|----|-----|-----|
+|1|yellow|⬤|
+|2|red|▲|
+|.|.|.|
+|.|.|.|
+|.|.|.|
+|1.5|red|⬤|
+|3|yellow|▲|
+|3.5|yellow|⬤|
+
+Now how we can choose condition or to be precise, decision tree to start building decision tree. Some conditions can be like :
+
+<img src="https://github.com/Hg03/Story-Of-ML/blob/main/assets/conditions.png">
+
+and there are different conditions we can think about, how to choose optimal condition to start on ❗❗❗. Here **Information Gain** and **Gini Impurity**.
