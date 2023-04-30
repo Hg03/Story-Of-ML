@@ -46,3 +46,7 @@ $$ \sum_{i=1}^{n} p(i) \times (1 - p(i)) $$
 
 <img src="https://github.com/Hg03/Story-Of-ML/blob/main/assets/gini.png">
 
+**Calculating Information Gain**
+
+<img src="https://github.com/Hg03/Story-Of-ML/blob/main/assets/ig.png">
+
