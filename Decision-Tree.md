@@ -31,3 +31,18 @@ Now how we can choose condition or to be precise, decision tree to start buildin
 <img src="https://github.com/Hg03/Story-Of-ML/blob/main/assets/conditions.png">
 
 and there are different conditions we can think about, how to choose optimal condition to start on ❗❗❗. Here **Information Gain** and **Gini Impurity**.
+
+**Information Gain 🚩** defines the quality of split of nodes in further decision nodes. So when we have to choose the best split condition, we use this. We'll iterate through every splitting condtions and calculates their information gain, split which has **information gain** becomes the best split 🫶.
+
+### How Information Gain is calculated : Information gain is the difference of **Gini Impurity** of parent node and weighted average of **Gini impurities** of both splitted nodes. 
+
+Now what is **Gini Impurity** 🤔
+
+Gini Impurity simply determines the purity of node. Purity of node means how random that decision node is filled with different target class. If decision node has only 1 class filled, means it is pure hence value of Gini Impurity is 1 , if decision node is filled half half with only 2 classes , value is 0.5 and it varies then.
+
+**Formula of Gini Impurity** :
+
+$$ \sum_{i=1}^{n} p(i) \times (1 - p(i)) $$
+
+<img src="https://github.com/Hg03/Story-Of-ML/blob/main/assets/gini.png">
+
