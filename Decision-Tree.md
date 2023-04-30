@@ -38,7 +38,7 @@ and there are different conditions we can think about, how to choose optimal con
 
 Now what is **Gini Impurity** 🤔
 
-Gini Impurity simply determines the purity of node. Purity of node means how random that decision node is filled with different target class. If decision node has only 1 class filled, means it is pure hence value of Gini Impurity is 1 , if decision node is filled half half with only 2 classes , value is 0.5 and it varies then.
+Gini Impurity 🥠🥠 simply determines the purity of node. Purity of node means how random that decision node is filled with different target class. If decision node has only 1 class filled, means it is pure hence value of Gini Impurity is 1 , if decision node is filled half half with only 2 classes , value is 0.5 and it varies then.
 
 **Formula of Gini Impurity** :
 
@@ -46,7 +46,13 @@ $$ \sum_{i=1}^{n} p(i) \times (1 - p(i)) $$
 
 <img src="https://github.com/Hg03/Story-Of-ML/blob/main/assets/gini.png">
 
-**Calculating Information Gain**
+**Calculating Information Gain** 🧮
 
-<img src="https://github.com/Hg03/Story-Of-ML/blob/main/assets/ig.png">
+|Gini Impurity of parent node - avg(Gini Impurity of child node)|
+|---------------------------------------------------------------|
+|<img src="https://github.com/Hg03/Story-Of-ML/blob/main/assets/ig.png">|
+
+**Overall**, first we'll iterate through all decision rule and calculate information gain for each split, larger the information gain, more beneficial that split would be selected, after that do this process recursively until the max depth of tree you want.
+
+<img src="https://github.com/Hg03/Story-Of-ML/blob/main/assets/steps.png">
 
