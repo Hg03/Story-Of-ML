@@ -25,3 +25,10 @@ Here 🟢 is for **PG** rated, 🟡 is for **PG13** rated and 🔴 is for **R** 
 
 <img src="https://github.com/Hg03/Story-Of-ML/blob/main/assets/ratingplotted.png">
 
+As we can , it's very difficult to draw a decision boundary becuase data is so much random, there **KNN** is very best suited algorithm here. Let's say we encountered a new sample, we'll select some **K** value. Let's say K = 4, therefore we select 4 nearest datapoints from a new sample and check which majority target class those nearest datapoints favours :
+1. If 2 datapoints favour 🔴, 1 favours 🟡 and 1 favours 🟢 depicts that new sample belongs to 🔴 class.
+2. If 3 datapoints favour 🟡 and 1 favours 🟢 depicts that new sample belongs to 🟡 class.
+3. If 2 datapoints favour 🔴, 2 favours 🟡 , then we'll calculate the average distance of 🔴 class as well as for 🟡 class. Then new sample belongs to those class whose class' average is lesser.
+
+
+
