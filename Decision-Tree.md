@@ -30,7 +30,7 @@ Now how we can choose condition or to be precise, decision tree to start buildin
 
 <img src="https://github.com/Hg03/Story-Of-ML/blob/main/assets/conditions.png">
 
-and there are different conditions we can think about, how to choose optimal condition to start on ❗❗. Here **Information Gain** and **Gini Impurity**.
+and there are different conditions we can think about, how to choose optimal condition to start on ❗❗. Here **Information Gain** and **Gini Impurity** comes into action.
 
 **Information Gain 🚩** defines the quality of split of nodes in further decision nodes. So when we have to choose the best split condition, we use this. We'll iterate through every splitting condtions and calculates their information gain, split which has **information gain** becomes the best split 🫶.
 
